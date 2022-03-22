@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kesocial/Classroom/static/css/main.2c7658fd.css",
+    "main.js": "/Kesocial/Classroom/static/js/main.a6de1733.js",
+    "index.html": "/Kesocial/Classroom/index.html",
+    "main.2c7658fd.css.map": "/Kesocial/Classroom/static/css/main.2c7658fd.css.map",
+    "main.a6de1733.js.map": "/Kesocial/Classroom/static/js/main.a6de1733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c7658fd.css",
+    "static/js/main.a6de1733.js"
+  ]
+}
