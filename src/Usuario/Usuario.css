@@ -1,0 +1,80 @@
+.Alumno {
+  height: 0.5rem;
+  width: calc(100% - 3rem);
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: var(--colorSecundario);
+  transition: all 1s linear;
+  cursor: pointer;
+}
+.Alumno:hover {
+  transition: all 0.5s linear;
+  background-color: var(--colorPrincipal);
+}
+.Alumno * {
+  color: var(--colorLetra);
+}
+.DatosSecundarios * {
+  width: 100%;
+}
+.Alumno > .DatosSecundarios > .Imagen {
+  width: 8rem;
+  height: 8rem;
+  background-size: cover;
+  text-align: center;
+  border-radius: 2rem;
+  background-color: var(--colorPrincipal);
+}
+.DatosSecundarios {
+  display: none;
+  justify-content: space-evenly;
+  width: calc(100%);
+  justify-content: space-between;
+}
+.DatosPrincipales {
+  text-align: left;
+  width: 100%;
+}
+.Alumno.activo > .DatosSecundarios {
+  display: flex;
+}
+.Alumno.activo > .DatosPrincipales {
+  border-bottom: 1px solid var(--colorLineas);
+}
+.Alumno.activo {
+  height: min-content;
+  transition: all 0.5s ease-in-out;
+  flex-direction: column;
+  border-bottom: 1px solid var(--colorLineas2);
+  border-top: 1px solid var(--colorLineas2);
+}
+.Alumno.activo:hover {
+  background-color: var(--colorSecundario);
+}
+.Alumno.activo > .DatosSecundarios > .Imagen {
+  display: flex;
+}
+
+.Alumno.activo > .DatosSecundarios > .Datos {
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dato {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 420px) {
+  .Alumno.activo > .DatosSecundarios {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Alumno.activo {
+    max-width: 300px !important;
+    max-width: 300px !important;
+  }
+}

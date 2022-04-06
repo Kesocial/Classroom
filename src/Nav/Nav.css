@@ -1,0 +1,26 @@
+.Nav {
+  width: 100%;
+  height: min-content;
+
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  background-color: var(--colorTerciario);
+  border-bottom: 1px solid var(--colorLineas);
+}
+.Nav-boton {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: var(--colorLetra);
+  text-align: center;
+  font-size: 1.5rem;
+  height: 100%;
+  padding: 0.5rem;
+  width: 100%;
+}
+.Nav-boton:hover {
+  background-color: var(--colorSecundario);
+  color: var(--colorLetra);
+}

@@ -1,0 +1,7 @@
+.Costado {
+  width: calc(100% - var(--margin) - var(--margin));
+  background-color: var(--colorPrincipal);
+  display: flex;
+  justify-content: center;
+  margin: 0 var(--margin) 0 var(--margin);
+}

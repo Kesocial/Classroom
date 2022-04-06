@@ -1,0 +1,31 @@
+.ListaTareasSeccion {
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  height: min-content;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: var(--colorPrincipal);
+}
+.ListaTareasSeccion button {
+  transform: translateY(3rem);
+}
+.ListaTareasSeccion h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.ListaTareasSeccion > button {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
